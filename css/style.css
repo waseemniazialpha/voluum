@@ -48,6 +48,9 @@ nav ul li a {
     color: #313131;
     font-size: 14px;
 }
+nav ul li a:hover{
+    color: #CB10A6;
+}
 
 .btn-1 {
     padding: 16px 40px;
