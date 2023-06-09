@@ -51,6 +51,9 @@ nav ul li a {
 nav ul li a:hover{
     color: #CB10A6;
 }
+nav ul li:hover{
+    color: #CB10A6;
+}
 
 .btn-1 {
     padding: 16px 40px;
@@ -386,6 +389,7 @@ nav ul li a:hover{
     color: #6B6B6B;
     line-height: 25px;
     margin-bottom: 50px;
+    max-width: 340px;
 }
 
 
@@ -460,4 +464,34 @@ nav ul li a:hover{
 }
 .margin-left-0{
     margin-left: 0;
+}
+
+
+/* footer area  */
+footer{
+    background: linear-gradient(142.5deg, #1A104E -43.25%, #9A54EA 108.83%);
+    color: #ffffff;
+
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dad9dd;
+}
+.footer-top .left{
+    margin-top: 50px;
+}
+.footer-top .left h2{
+    line-height: 40px;
+    max-width: 340px;
+    margin-bottom: 20px;
+}
+.footer-top .left h3{
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.footer-top .left button{
+    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
